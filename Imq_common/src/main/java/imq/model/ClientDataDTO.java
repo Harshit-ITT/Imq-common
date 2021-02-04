@@ -7,6 +7,15 @@ public class ClientDataDTO {
 	private int serial_no;
 	private Date timestamp;
 	private String data;
+	private int topicId;
+
+	public int getTopicId() {
+		return topicId;
+	}
+
+	public void setTopicId(int topicId) {
+		this.topicId = topicId;
+	}
 
 	public String getId() {
 		return id;
