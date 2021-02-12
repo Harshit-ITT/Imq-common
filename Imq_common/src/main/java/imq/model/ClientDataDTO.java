@@ -1,11 +1,11 @@
 package imq.model;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 public class ClientDataDTO {
 	private String id;
 	private int serial_no;
-	private Date timestamp;
+	private Timestamp timestamp;
 	private String data;
 	private int topicId;
 
@@ -33,11 +33,11 @@ public class ClientDataDTO {
 		this.serial_no = serial_no;
 	}
 
-	public Date getTimestamp() {
+	public Timestamp getTimestamp() {
 		return timestamp;
 	}
 
-	public void setTimestamp(Date timestamp) {
+	public void setTimestamp(Timestamp timestamp) {
 		this.timestamp = timestamp;
 	}
 
